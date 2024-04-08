@@ -26,4 +26,3 @@ if __name__ == "__main__":
         print("Usage: {} <file>".format(sys.argv[0]))
         sys.exit(1)
     main(sys.argv[1])
-
