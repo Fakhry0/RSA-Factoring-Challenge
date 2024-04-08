@@ -30,7 +30,7 @@ def main(filename):
         for line in file:
             num = int(line.strip())
             p, q = factorize(num)
-            print("{}={}*{}".format(num, p, q))
+            print("{}={}*{}".format(num, q, p))
 
 
 if __name__ == "__main__":
